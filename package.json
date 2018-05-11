@@ -1,0 +1,47 @@
+{
+  "name": "tstodo-mithril",
+  "version": "1.0.0",
+  "description": "Todo app with Mithril and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "test": "tsc -p tsconfig.tests.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaanGerrits/todo-mithril.git"
+  },
+  "keywords": [
+    "Mithril",
+    "Todo",
+    "TypeScript"
+  ],
+  "author": "Daan Gerrits",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaanGerrits/todo-mithril/issues"
+  },
+  "homepage": "https://github.com/DaanGerrits/todo-mithril#readme",
+  "devDependencies": {
+    "@types/mithril": "^1.1.12",
+    "@types/storejs": "^2.0.2",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.3.0",
+    "tslint": "^5.10.0",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^2.8.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "mithril": "^1.1.6",
+    "store": "^2.0.12"
+  }
+}

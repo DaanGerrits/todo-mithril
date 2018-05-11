@@ -1,0 +1,19 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "max-line-length": false,
+    "max-classes-per-file": false,
+    "only-arrow-functions": false,
+    "no-unnecessary-initializer": false,
+    "variable-name": false,
+    "member-ordering": false,
+    "no-shadowed-variable": false,
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "any",
+        "named-imports-order": "case-insensitive"
+      }
+    ]
+  }
+}
